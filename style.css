@@ -15,7 +15,7 @@ h1 {
     color: indigo;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -46,6 +46,35 @@ section {
 .middle-banner {
     background-image: url(pic/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
 
+}
+
+.half-height {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(45, 5, 224);
+
+
+}
+
+.down-banner {
+    background-image: url(pic/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#europe {
+    border-left: 7px solid blue;
+}
+
+#aisa {
+    border-left: 7px solid red;
+}
+
+footer p {
+    text-align: center;
 }
