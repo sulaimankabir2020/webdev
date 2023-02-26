@@ -1,0 +1,43 @@
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange {
+    color: goldenrod;
+}
+
+.pet {
+    color: indigo;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    color: white;
+    font-weight: 400px;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(pic/top-banner.png);
+    background-repeat: no-repeat;
+}
